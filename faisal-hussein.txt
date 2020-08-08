@@ -1,0 +1,77 @@
+https://codepen.io/wearefsociety/pen/oNxgWbq
+
+
+1. What is Semantic HTML? 
+        HTML markup to give meaning to a page, it also helps             search engines and screen readers
+    2. What is HTML used for? 
+       Markup language use to display content on a web page.
+    3. What is an attribute and where do we put it?
+       Attributes are special words that are placed inside the          opening tag to control and elements behavior
+    4. What is the h1 tag used for? How many times should I use it on a page?
+      H1 tag is used to display the heading on a page and should not be used more than once for readibility purposes.
+    5. Name two tags that have required attributes
+        Src,alt
+    6. What do we put in the head of our HTML document? 
+        Metadata
+    7. What is an id? 
+       unique indentifier
+    8. What elements can I add an id to? 
+        div,h1,section,p, and many more
+    9. How many times can I use the same id on a page?
+        only once
+    10. What is a class? 
+        attribute that specifies one or more classnames
+    11. What elements can I add a class to?
+        divs,h1-h6,p,img,section, and many more
+    12. How many times can I use the same class on a page? 
+        how many ever you want
+    13. How do I get my link to open in a new tab?
+        add target="_blank" inside the a tag
+    14. What is the alt attribute in the image tag used for? 
+        alternative text for an image
+    15. How do I reference an id?
+        with the hash # character
+    16. What is the difference between a section and a div
+        a section groups its content where a div has no meaning           its a block level element.
+    17. What is CSS used for? 
+        givng style to a page
+    18. How do we select an element? Example - every h2 on the        page?
+     h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    id's can be used to indentify one element where a class can identify multiple elements. for example if i wanted to style one of all the h2 tags on a page a specific way i would use and id if i wanted all the h2 tags to have the same style i would give each of them the same class name.
+    20. How do we select classes in CSS?
+      with a dot (.)
+    21. How do we select a p element with a single class of “human””?
+    .human p{}
+    22. What is a parent child selector? When would this be useful? for example nav is a parent and ol is a child and li is a child of ol and nav can be a child of a div and so on. if you wanted ti select a certain child of a parent maybe to style or something else.
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a{};
+    24. What is a pseudo selector?
+    it is a selector that selects elements in a specific state.
+    25. What do we use the change the spacing between lines?
+        line-height:;
+    26. What do we use to change the spacing between letters?
+      letter-spacing:;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform:capitalize
+    28. How do I add a 1px border around my div that is dotted and black?
+      border:10px dotted black;
+    29. How do I select everything on the page? 
+        *{};
+    30. How do I write a comment in CSS? 
+        /*  */
+    31. How do I find out what file I am in, when I am using the command line? 
+        cd ~
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    type ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+      rm filename. it doesnt give you any warnings
+    34. Why should I use version control? 
+        tracks individual changes.
+    35. How often should I commit to github?
+        whenever you finish a step.
+    36. What is the command we would use to push our repo up to github? 
+      git push -u origin branch-name
+    37. Walk me through Lambda's git flow
+        fork,add collabarator,clone,branch,commenting,adding,committing,push,pull. 
+        ......
